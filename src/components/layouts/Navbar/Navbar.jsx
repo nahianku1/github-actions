@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="nav">
-      <ul>
+    <div className="flex bg-green-400 px-5 items-center gap-4">
+
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
@@ -29,7 +29,6 @@ function Navbar() {
         >
           Profile
         </NavLink>
-      </ul>
     </div>
   );
 }
