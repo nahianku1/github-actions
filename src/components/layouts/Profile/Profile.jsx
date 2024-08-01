@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Container from "../Container/Container";
 
 function Profile() {
   return (
-    <div>Profile</div>
-  )
+    <Container>
+      <div>Profile</div>
+    </Container>
+  );
 }
 
-export default Profile
+export default Profile;

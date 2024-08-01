@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .active {
+    @apply py-3 px-3 bg-white text-black;
+  }
+}
